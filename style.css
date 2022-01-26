@@ -1,0 +1,256 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.logo{
+    width: 100px;
+}
+header{
+    background-color: rgb(162, 218, 215);
+    display: flex;
+    width:auto;
+    margin: auto;
+
+    
+    
+}
+
+ul{
+    display: flex; 
+    
+}
+li{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin:5px;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+   
+   
+    
+}
+li:hover{
+color: violet;
+
+}
+
+
+
+button{
+    background-color: wheat;
+    padding: 10px;
+    margin:5px 10px 5px 5px ;
+    border-color: violet;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 100px;
+    width: 70px;
+    height:70px ;
+   
+}
+select{
+    width: 300px;
+    height: 40px;
+ }
+ input{
+    width: 700px;
+    height: 40px; 
+   
+   
+ }
+i{
+    padding: 5px;
+}
+table, tr, td{
+    background-color:white;
+    display: inline-block;
+    padding: 15px;  
+    font-size: 20px;
+}
+td:hover{
+    color: violet;
+}
+.Container{
+    width: 1400px;
+    height: 200px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+  
+}
+.box{
+    display: flex;
+    
+
+}
+.card{
+    width:300px ;
+    margin:10px ;
+    background-color: white;
+    border-radius: 15px ;
+    
+}
+.card-img img{
+    width: 100%px;
+}
+.card-body p{
+    
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+
+
+/* .box2{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-image: url(images/kolosal.png);
+   
+}
+.box3{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+   
+    background-image: url(images/bike.jpg);
+}
+.box4{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/rack.jpg);
+}
+.box5{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/ladies.jpg);
+}
+.box6{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/ballon.jpg);
+}
+.box7{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/mobile.jpg);
+}
+.box8{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/babyskin.jpg);
+}
+.box9{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/pots.jpg);
+}
+.box10{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/arcylic.jpg);
+}
+.box11{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/makeup\ organizer.jpg);
+}
+.box12{
+    width:300px;
+    height:300px;
+    background-color:whitesmoke;
+    margin: 5px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-image: url(images/golden\ decoration.jpg) ;
+} */
+.footer-container{
+    padding-bottom: 4rem;
+    height: 300px;
+   
+
+ }
+ .footer{
+     height:200px ;
+     width:1500px ;
+     background-color:rgb(225, 235, 236);
+     color:black;
+     font-size: 15px;
+     display: flex;
+     
+     padding-right: 50px;
+ }
+ .footer1{
+     display: flex;
+     flex-direction: column;
+    margin-left: 30px;
+     text-decoration: none;
+     padding-left: 10px;
+    
+ }
+ h2{
+    margin:20px 30px 5px 10px;
+ }
+ a{
+     text-decoration: none;
+ }
+ .footer2{
+    display: flex;
+    flex-direction: column;
+   margin-left: 30px;
+    padding-left: 10px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+margin-left: 30px;
+    padding-left: 10px;
+}
+.footer4{
+        display: flex;
+        flex-direction: row;
+      margin-left: 30px;
+      padding-right: 10px;
+    }
